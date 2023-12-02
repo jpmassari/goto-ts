@@ -1,0 +1,35 @@
+{
+  "name": "goto-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "undici-types": "^5.26.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpmassari/goto-ts.git"
+  },
+  "keywords": [
+    "goto",
+    "Goto",
+    "goTo",
+    "GOTO",
+    "javascript",
+    "typescript",
+    "parse",
+    "parsing",
+    "states",
+    "machine"
+  ],
+  "author": "zuckemn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpmassari/goto-ts/issues"
+  },
+  "homepage": "https://github.com/jpmassari/goto-ts#readme"
+}
