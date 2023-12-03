@@ -17,15 +17,6 @@
 *** See the bottom of this document for the declaration of the reference variables
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -52,25 +43,25 @@ import { goto, goto_block} from goto
 <br>
 const temp = () => {
 <br>
-    let i = 0;
+&emsp    let i = 0;
 <br>
-    goto_block([
+&emsp   goto_block([
 <br>    
-        ["loop", () => {
+&emsp        ["loop", () => {
 <br>
-            if(i >= 10) goto("out");
+&emsp &emsp            if(i >= 10) goto("out");
 <br>
-            console.log(`hello world ${i}`);
+&emsp &emsp            console.log(`hello world ${i}`);
 <br>
-            i++;
+&emsp &emsp            i++;
 <br>
-            goto("loop");
+&emsp &emsp            goto("loop");
 <br>
-        }],
+&emsp &ensp        }],
 <br>
-        ["out", () => console.log("DONE")],
+&emsp       ["out", () => console.log("DONE")],
 <br>
-    ])
+&ensp    ])
 <br>
 }
 <br>
