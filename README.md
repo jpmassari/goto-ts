@@ -40,32 +40,49 @@
 ## Usage
 
 import { goto, goto_block} from goto
-<br>
+<br />
+<br />
 const temp = () => {
-<br>
-let i = 0;
-<br>
-goto_block([    
-["loop", () => {
-<br>
-if(i >= 10) goto("out");
-<br>
-console.log(`hello world ${i}`);
-<br>
-i++;
-<br>
-goto("loop");
-<br>
-}],
-<br>
-["out", () => console.log("DONE")],
-<br>
-])
-<br>
+<br/>
+<dl>
+  <dd>
+    let i = 0;
+      <br/>
+      <dl>
+        <dd>
+      goto_block([
+          <dl>
+            <dd>
+              ["loop", () => {
+              <br/>
+              <dl>
+                <dd>
+                  if(i >= 10) goto("out");
+                  <br/>
+                  console.log(`hello world ${i}`);
+                  <br/>
+                  i++;
+                  <br/>
+                  goto("loop");
+                  <br/>
+                  }],
+                  <br/>
+                  ["out", () => console.log("DONE")],
+                  <br/>
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+      ])
+        </dd>
+      </dl>    
+    <br/>
+  </dd>
+</dl>
 }
-<br>
-<br>
-<br>
+<br/>
+<br/>
+<br/>
 ### Installation
 
 Install NPM packages
