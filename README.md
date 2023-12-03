@@ -47,34 +47,29 @@ const temp = () => {
 <dl>
   <dd>
     let i = 0;
-      <br/>
-      <dl>
-        <dd>
-      goto_block ([
-          <dl>
-            <dd>
-              ["loop", () => {
-              <br/>
-              <dl>
-                <dd>
-                  if(i >= 10) goto("out");
-                  <br/>
-                  console.log(`hello world ${i}`);
-                  <br/>
-                  i++;
-                  <br/>
-                  goto("loop");
-                  <br/>
-                </dd>
-              </dl>
-              }],
-              <br />
-              ["out", () => console.log("DONE")],
-            </dd>
-          </dl>
+    <br/>
+    goto_block ([
+        <dl>
+          <dd>
+            ["loop", () => {
+            <dl>
+              <dd>
+                if(i >= 10) goto("out");
+                <br/>
+                console.log(`hello world ${i}`);
+                <br/>
+                i++;
+                <br/>
+                goto("loop");
+                <br/>
+              </dd>
+            </dl>
+            }],
+            <br />
+            ["out", () => console.log("DONE")],
+          </dd>
+        </dl>
       ])  
-        </dd>
-      </dl>
   </dd>
 </dl>
 }
