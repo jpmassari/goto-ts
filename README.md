@@ -65,11 +65,11 @@ const temp = () => {
                   <br/>
                   goto("loop");
                   <br/>
-                  }],
-                  <br/>
-                  ["out", () => console.log("DONE")],
                 </dd>
               </dl>
+              }],
+              <br />
+              ["out", () => console.log("DONE")],
             </dd>
           </dl>
       ])  
