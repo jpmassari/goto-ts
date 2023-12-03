@@ -43,25 +43,24 @@ import { goto, goto_block} from goto
 <br>
 const temp = () => {
 <br>
-&emsp    let i = 0;
+let i = 0;
 <br>
-&emsp   goto_block([
-<br>    
-&emsp        ["loop", () => {
+goto_block([    
+["loop", () => {
 <br>
-&emsp &emsp            if(i >= 10) goto("out");
+if(i >= 10) goto("out");
 <br>
-&emsp &emsp            console.log(`hello world ${i}`);
+console.log(`hello world ${i}`);
 <br>
-&emsp &emsp            i++;
+i++;
 <br>
-&emsp &emsp            goto("loop");
+goto("loop");
 <br>
-&emsp &ensp        }],
+}],
 <br>
-&emsp       ["out", () => console.log("DONE")],
+["out", () => console.log("DONE")],
 <br>
-&ensp    ])
+])
 <br>
 }
 <br>
