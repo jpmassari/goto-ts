@@ -74,15 +74,12 @@ const temp = () => {
             </dd>
           </dl>
       ])
+      <br/>    
         </dd>
-      </dl>    
-    <br/>
+      </dl>
   </dd>
 </dl>
 }
-<br/>
-<br/>
-<br/>
 ### Installation
 
 Install NPM packages
