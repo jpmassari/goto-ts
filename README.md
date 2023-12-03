@@ -76,8 +76,11 @@ const temp = () => {
 <br />
 <br />
 <br />
-### Installation
 
+### Installation
+<br />
+<br />
+<br />
 Install NPM packages
    ```sh
    npm install goto-ts
