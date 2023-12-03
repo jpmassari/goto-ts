@@ -50,7 +50,7 @@ const temp = () => {
       <br/>
       <dl>
         <dd>
-      goto_block([
+      goto_block ([
           <dl>
             <dd>
               ["loop", () => {
@@ -68,13 +68,11 @@ const temp = () => {
                   }],
                   <br/>
                   ["out", () => console.log("DONE")],
-                  <br/>
                 </dd>
               </dl>
             </dd>
           </dl>
-      ])
-      <br/>    
+      ])  
         </dd>
       </dl>
   </dd>
