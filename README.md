@@ -25,7 +25,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h1 align="center">goto-ts</h1>
+  <h1 align="center">goto-block</h1>
 
   <p align="center">
     goto implementation in typescript
