@@ -1,5 +1,5 @@
 
-<a name="goto-ts"></a>
+Implementation of goto for faster iteration and ultimate performance
 
 <br />
 <div align="center">
